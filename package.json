@@ -23,5 +23,5 @@
     "build": "babel src/observer.js -d dist",
     "test": "mocha -r jsdom-global/register"
   },
-  "version": "0.1.11"
+  "version": "0.1.12"
 }
