@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "dist/src/observer.js",
   "name": "observerjs",
-  "repository": "https://github.com/DiterEvan/observerjs",
+  "repository": "https://github.com/DiterEvan/observer",
   "scripts": {
     "build": "babel src/observer.js -d dist",
     "test": "mocha -r jsdom-global/register"
