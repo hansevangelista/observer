@@ -25,11 +25,11 @@ const observer = new Observer();
 
 ```javascript
 // Subscribe to events from iframe child
-observer.suscribe('close', () => { fcbLeadForm.hide(); });
+observer.suscribe('close', () => { app.close(); });
 
 // Emit events to iframe child
-Observer.emit('init', '*', this.iframe.contentWindow);
-Observer.emit('open', '*', this.iframe.contentWindow);
+Observer.emit('init', '*', iframe.contentWindow);
+Observer.emit('open', '*', iframe.contentWindow);
 
 ```
 
