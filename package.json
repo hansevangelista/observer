@@ -1,27 +1,23 @@
 {
+  "name": "observerjs",
+  "description": "An easy way to **Parent - Iframe Child** communication",
+  "version": "0.1.13",
+  "main": "dist/src/observer.js",
+  "scripts": {
+    "build": "babel src/observer.js -d dist",
+    "test": "mocha -r jsdom-global/register"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
   "author": {
     "name": "Hans Evangelista",
     "email": "hansevangelista@gmail.com",
     "url": "twitter.com/DiterEvan"
   },
-  "bugs": "https://github.com/DiterEvan/observer/issues",
-  "description": "An easy way to **Parent - Iframe Child** communication",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "chai": "^4.1.2",
-    "jsdom": "^11.3.0",
-    "jsdom-global": "^3.0.2",
-    "mocha": "^3.5.3"
-  },
-  "homepage": "https://github.com/DiterEvan/observer#readme",
-  "license": "MIT",
-  "main": "dist/src/observer.js",
-  "name": "observerjs",
   "repository": "https://github.com/DiterEvan/observer",
-  "scripts": {
-    "build": "babel src/observer.js -d dist",
-    "test": "mocha -r jsdom-global/register"
-  },
-  "version": "0.1.13"
+  "bugs": "https://github.com/DiterEvan/observer/issues",
+  "homepage": "https://github.com/DiterEvan/observer#readme",
+  "license": "MIT"
 }
