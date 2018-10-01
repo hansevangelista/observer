@@ -1,11 +1,10 @@
 {
   "name": "observerjs",
   "description": "An easy way to **Parent - Iframe Child** communication",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "main": "dist/src/observer.js",
   "scripts": {
-    "build": "babel src/observer.js -d dist",
-    "test": "mocha -r jsdom-global/register"
+    "build": "babel src/observer.js -d dist"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

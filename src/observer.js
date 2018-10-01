@@ -2,7 +2,7 @@ const eventMethod = window.addEventListener ? 'addEventListener' : 'attachEvent'
 const eventer = window[eventMethod];
 const messageEvent = eventMethod === 'attachEvent' ? 'onmessage' : 'message';
 
-const observer = class Observer {
+class Observer {
   constructor() {
     this.events = [];
     this.init();
@@ -27,4 +27,4 @@ const observer = class Observer {
   }
 };
 
-export default observer;
+export default Observer;
