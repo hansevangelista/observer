@@ -1,6 +1,6 @@
 {
   "name": "observerjs",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "An easy way to **Parent - Iframe Child** communication",
   "main": "dist/src/observer.js",
   "scripts": {
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/DiterEvan/observer/issues"
   },
-  "homepage": "https://github.com/DiterEvan/observer#readme",
+  "homepage": "https://github.com/DiterEvan/observer#readme"
 }
