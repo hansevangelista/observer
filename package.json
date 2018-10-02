@@ -1,7 +1,7 @@
 {
   "name": "observerjs",
-  "description": "An easy way to **Parent - Iframe Child** communication",
   "version": "0.1.16",
+  "description": "An easy way to **Parent - Iframe Child** communication",
   "main": "dist/src/observer.js",
   "scripts": {
     "build": "babel src/observer.js -d dist"
@@ -10,13 +10,18 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiterEvan/observer.git"
+  },
   "author": {
     "name": "Hans Evangelista",
     "email": "hansevangelista@gmail.com",
     "url": "twitter.com/DiterEvan"
   },
-  "repository": "https://github.com/DiterEvan/observer",
-  "bugs": "https://github.com/DiterEvan/observer/issues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiterEvan/observer/issues"
+  },
   "homepage": "https://github.com/DiterEvan/observer#readme",
-  "license": "MIT"
 }
